@@ -1,38 +1,53 @@
-body
-  {
-  background: linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));}
+html {
+	height: 100%;
+}
 
- .accroche
-{font-style:bold ; color:#FFFFFD; text-align: center; line-height: center; font-size: 50px;}
+body {
+	background: linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
+	margin: 0px;
+	height: 100%;
+}
+
+.accroche
+{
+	font-style:bold;
+	color:#FFFFFD;
+	text-align: center;
+	line-height: center;
+	font-size: 50px;
+}
 
 .vertical-menu {
-    width: 200px; 
-    margin-left: 0px;
+	width: 100px;
+	margin-left: 0px;
+	min-height: 100%;
+	background-color: #2D3E50;
 }
 
 .vertical-menu a {
-    background-color: #2D3E50;
-    color: black; 
-    display: block; 
-    padding: 12px; 
-    text-decoration: none; 
+	background-color: #2D3E50;
+	color: white;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
 }
 
 .vertical-menu a:hover {
-    background-color: #439D9B;
+	background-color: #439D9B;
 }
 
 .vertical-menu a.active {
-    background-color: #439D9B;
-    color: white;
+	background-color: #439D9B;
+	color: white;
 }
 
-.logo { float:right; margin:0 0px 0 0px;} 
+.logo {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
 
 
-.vertical-menu 
-{font-family:Verdana, Arial, Helvetica, sans-serif;}
-
-
-
+.vertical-menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
