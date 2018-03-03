@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 	res.sendFile(__dirname + '/views/index.html');
 })
 
+app.get('/grid', (req, res) => {
+	res.sendFile(__dirname + '/views/grid.html');
+})
+
 app.listen(app.get('port'), () => {
 	console.log('Example app listening on port 3000!')
 })
