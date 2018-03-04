@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="62px" viewBox="0 0 63 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>venus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-46.000000, -143.000000)">
+            <g id="Menu">
+                <g id="Venus" transform="translate(39.000000, 143.000000)">
+                    <g id="venus" transform="translate(7.000000, 0.000000)">
+                        <g id="002-venus">
+                            <ellipse id="Oval" fill="#D75A4A" fill-rule="nonzero" cx="30.375" cy="33.7678571" rx="27" ry="26.5714286"></ellipse>
+                            <path d="M61.875,6.08928571 L60.09075,6.08928571 L57.375,3.41664286 L57.375,1.66071429 C57.375,1.04957143 56.872125,0.553571429 56.25,0.553571429 C55.627875,0.553571429 55.125,1.04957143 55.125,1.66071429 L55.125,3.41664286 L52.40925,6.08928571 L50.625,6.08928571 C50.002875,6.08928571 49.5,6.58528571 49.5,7.19642857 C49.5,7.80757143 50.002875,8.30357143 50.625,8.30357143 L52.40925,8.30357143 L55.125,10.9762143 L55.125,12.7321429 C55.125,13.3432857 55.627875,13.8392857 56.25,13.8392857 C56.872125,13.8392857 57.375,13.3432857 57.375,12.7321429 L57.375,10.9762143 L60.091875,8.30357143 L61.875,8.30357143 C62.497125,8.30357143 63,7.80757143 63,7.19642857 C63,6.58528571 62.497125,6.08928571 61.875,6.08928571 Z" id="Shape" fill="#F3D55B" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="6.75" cy="10.5178571" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="28.125" cy="13.8392857" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="59.625" cy="19.375" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="40.501125" cy="6.08928571" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="39.375" cy="50.375" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="3.375" cy="60.3392857" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="1.125" cy="48.1607143" rx="1.125" ry="1.10714286"></ellipse>
+                            <path d="M55.092375,23.0739643 C54.05175,20.7489643 52.686,18.5988929 51.04575,16.6791071 C43.2405,17.9013929 27,20.4821429 27,20.4821429 L55.092375,23.0739643 Z" id="Shape" fill="#E57E25" fill-rule="nonzero"></path>
+                            <path d="M54.192375,46.2885357 C55.299375,44.2525 56.140875,42.0581429 56.680875,39.7486429 L20.25,43.7321429 C20.25,43.7321429 41.679,45.3042857 54.192375,46.2885357 Z" id="Shape" fill="#E57E25" fill-rule="nonzero"></path>
+                            <path d="M3.78225,29.1964643 C3.520125,30.68225 3.375,32.2078929 3.375,33.7678571 C3.375,34.3701429 3.403125,34.9657857 3.4425,35.5581071 L27,32.6607143 C27,32.6607143 12.7935,30.4995714 3.78225,29.1964643 Z" id="Shape" fill="#E57E25" fill-rule="nonzero"></path>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="49.5" cy="60.3392857" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="59.625" cy="47.0535714" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="1.125" cy="4.98214286" rx="1.125" ry="1.10714286"></ellipse>
+                            <ellipse id="Oval" fill="#F3D55B" fill-rule="nonzero" cx="13.5" cy="2.76785714" rx="1.125" ry="1.10714286"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
