@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="350px" height="350px" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="350px" height="300px" viewBox="0 0 350 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>Logo</title>
     <desc>Created with Sketch.</desc>
@@ -63,7 +63,7 @@
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Logo">
-            <g id="moon" transform="translate(-19.000000, 211.000000)">
+            <g id="moon" transform="translate(-17.000000, 212.000000)">
                 <g id="013-moon-3">
                     <circle id="Oval" fill="#CBCBCB" fill-rule="nonzero" cx="194" cy="194" r="194"></circle>
                     <circle id="Oval" fill="#CBCBCB" fill-rule="nonzero" cx="194" cy="194" r="194"></circle>
@@ -103,7 +103,7 @@
                     </g>
                 </g>
             </g>
-            <g id="cosmo-whale" transform="translate(18.000000, 0.000000)">
+            <g id="cosmo-whale" transform="translate(20.000000, 1.000000)">
                 <g id="whale" transform="translate(44.857143, 27.036395)" stroke-width="1">
                     <g id="003-whale" transform="translate(0.000000, 41.376147)">
                         <g id="Group" fill-rule="nonzero">
