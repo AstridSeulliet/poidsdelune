@@ -27,8 +27,8 @@ const router = express.Router()
 
 // MIDDLEWARE
 router.use((req, res, next) => {
-	const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-	console.log("Remote:", ip)
+	// const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+	// console.log("Remote:", ip)
 	next();
 })
 
@@ -66,31 +66,38 @@ router.route('/:body/:mass')
 		const bodyGF = GFList[body] // N/kg
 
 		if (typeof bodyGF === "undefined") {
+			const status = 400
+			res.status(status)
 			res.json({
-				error: "error"
+				status: "error",
+				message: "Bad request",
+				code: status
 			})
 		} else {
 			const mass = parseInt(req.params.mass) // kg
 			const earthGF = GFList["earth"] // N/kg
 			const pseudomass = (mass * bodyGF) / earthGF // kg
 			const weight = mass * bodyGF // N
-
-			res.json({
-				result: {
+			const nb = 2
+			const resultObject = {
+				status: "success",
+				data: {
 					source: {
 						body: "earth",
-						mass,
-						weight: mass * earthGF,
-						gravitational_field: earthGF
+						mass: mass.toFixed(nb),
+						weight: (mass * earthGF).toFixed(nb),
+						gravitational_field: earthGF.toFixed(nb),
 					},
 					target: {
 						body,
-						mass,
-						weight,
-						gravitational_field: bodyGF,
-						pseudomass
+						mass:mass.toFixed(nb),
+						weight:weight.toFixed(nb),
+						gravitational_field: bodyGF.toFixed(nb),
+						pseudomass: pseudomass.toFixed(nb)
 					}
 				}
-			})
+			}
+			console.log(`${resultObject.data.source.body}(${resultObject.data.source.mass}) -> ${resultObject.data.target.body}(${resultObject.data.target.pseudomass})`)
+			res.json(resultObject)
 		}
 	})

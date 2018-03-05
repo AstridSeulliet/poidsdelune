@@ -1,13 +1,53 @@
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+
+/* TODO: Make media queries work */
+@media only screen and (max-width: 300px) {
+
+	.grid-container {
+		grid-template-areas:
+			'header header header header header'
+			'main main main main main'
+			'main main main main main'
+			'main main main main main'
+			'footer footer footer footer footer';
+	}
+
+	.menu {
+		display: none;
+	}
+}
+
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
 html {
+	min-height: 630px;
 	height: 100%;
+	/* border: 1px solid red; */
 }
 
 body {
+	/* border: 1px solid green; */
 	margin: 0px;
+	min-height: 630px;
 	height: 100%;
 	background-image:url(images/logo.svg), linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
 	background-repeat:no-repeat;
 	background-position:right bottom;
+	font-family: Open Sans Light;
+	color: white;
 }
 
 .grid-container {
@@ -17,42 +57,50 @@ body {
 	grid-template-areas:
 		'menu header header header header header'
 		'menu main main main main main'
+		'menu main main main main main'
+		'menu main main main main main'
 		'menu footer footer footer footer footer';
 
 	/* border: 1px dashed white; */
 	grid-gap: 5px;
 	/* grid-template-columns: auto auto auto auto auto auto;*/
-	grid-template-columns: 100px;
+	grid-template-columns: 68px;
 }
 
 	.grid-item {
 		/*display: grid;*/
-		border: 1px solid white;
+		border: 1px solid beige;
 		padding: 0px;
 	}
 
 	.header {
 		grid-area: header;
+		text-align: center;
+		padding-top: 100px;
+		font-family: Open Sans;
 	}
 
 	.menu {
 		grid-area: menu;
 		border: 0px;
 		background-color: #2C3E50;
-		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-family: Open Sans Light;
+		font-size: 12px;
 		box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .5);
 		/* grid-auto-columns: fit-content(auto); */
 	}
 
 		.menu-item {
-			color: white;
+
 			padding: 10px;
-			border: 1px solid red;
+			/* border: 1px solid red; */
 			text-align: center;
-			/* height: 100px; */
+			padding-top: 10px;
+			height: 50px;
 			background-repeat: no-repeat;
-			background-position: center 10px;
-			background-size: 50%;
+			background-position: center 12px;
+			background-size: 46%;
+			position: relative;
 		}
 
 		.menu-item:hover {
@@ -63,8 +111,27 @@ body {
 			background-color: rgba(42, 91, 99, 54);
 		}
 
+		.menu-item {
+			background-image:url(images/Moon.svg);
+		}
+
 		.menu-item[data-body="moon"] {
 			background-image:url(images/Moon.svg);
+		}
+
+		.menu-item[data-body="venus"] {
+			background-image:url(images/Venus.svg);
+		}
+
+		.menu-item[data-body="saturn"] {
+			background-image:url(images/Saturn.svg);
+		}
+
+		.menu-item > div {
+			width:100%;
+			position: absolute;
+			bottom: 8px;
+			left: 0px;
 		}
 
 	.main {
@@ -81,4 +148,5 @@ body {
 
 	.footer {
 		grid-area: footer;
+		font-size: 10px;
 	}
