@@ -42,12 +42,12 @@ router.get('/', (req, res) => {
 router.route('/:body/:mass')
 	.get((req, res) => {
 		/*
-		Pesanteur sur la Terre : 9,81 N/kg
-		Pesanteur sur la Lune : 1,57 N/kg
-		Vous pesez (masse) 75 kg soit (75 x 9,81) 735,75 N sur Terre et (75 x 1,57) 117,75 N sur la Lune
-		Vous pesez donc environ (735,75 / 117,75) 6,25 fois moins sur la Lune
-		Une balance apportée sur la Lune vous donnerait donc un poids d'environ (75 / 6,25) 12 kg
-		Méthode plus directe : (Masse x Pesanteur Astre) / Pesanteur Terre
+			Pesanteur sur la Terre : 9,81 N/kg
+			Pesanteur sur la Lune : 1,57 N/kg
+			Vous pesez (masse) 75 kg soit (75 x 9,81) 735,75 N sur Terre et (75 x 1,57) 117,75 N sur la Lune
+			Vous pesez donc environ (735,75 / 117,75) 6,25 fois moins sur la Lune
+			Une balance apportée sur la Lune vous donnerait donc un poids d'environ (75 / 6,25) 12 kg
+			Méthode plus directe : (Masse x Pesanteur Astre) / Pesanteur Terre
 		*/
 
 		const GFList = { // Gravitational field
