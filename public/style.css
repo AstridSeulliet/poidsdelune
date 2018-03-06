@@ -138,8 +138,10 @@ body {
 		grid-area: main;
 	}
 
-		.main button[name="mouuuuuu"] {
-			/* border:1px solid blue; */
+		.main input {
+			display: block;
+			margin: auto;
+
 		}
 
 	.right {
