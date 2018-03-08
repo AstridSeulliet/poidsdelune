@@ -6,7 +6,7 @@
 }
 
 /* TODO: Make media queries work */
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
 
 	.grid-container {
 		grid-template-areas:
@@ -20,8 +20,7 @@
 	.menu {
 		display: none;
 	}
-}
-
+} */
 
 .noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -43,7 +42,7 @@ body {
 	margin: 0px;
 	min-height: 630px;
 	height: 100%;
-	background-image:url(images/logo.svg), linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
+	background-image:url("images/background/logo.svg"), linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
 	background-repeat:no-repeat;
 	background-position:right bottom;
 	font-family: Open Sans Light;
@@ -112,19 +111,19 @@ body {
 		}
 
 		.menu-item {
-			background-image:url(images/Moon.svg);
+			background-image:url("images/menu/moon.svg");
 		}
 
 		.menu-item[data-body="moon"] {
-			background-image:url(images/Moon.svg);
+			background-image:url("images/menu/moon.svg");
 		}
 
 		.menu-item[data-body="venus"] {
-			background-image:url(images/Venus.svg);
+			background-image:url("images/menu/venus.svg");
 		}
 
 		.menu-item[data-body="saturn"] {
-			background-image:url(images/Saturn.svg);
+			background-image:url("images/menu/saturn.svg");
 		}
 
 		.menu-item > div {
