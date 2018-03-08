@@ -45,6 +45,7 @@ $(document).ready(function () {
 			return
 		$('.menu-item').removeClass('active')
 		$(el.currentTarget).addClass('active')
+		$('.grid-item.header > h1').text("Calcule ton Poids de " + $(el.currentTarget).text())
 		mouuuuuu()
 	})
 
