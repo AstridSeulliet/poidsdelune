@@ -6,7 +6,7 @@
 }
 
 /* TODO: Make media queries work */
-/* @media only screen and (max-width: 300px) {
+@media only screen and (max-width: 300px) {
 
 	.grid-container {
 		grid-template-areas:
@@ -20,7 +20,7 @@
 	.menu {
 		display: none;
 	}
-} */
+}
 
 .noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -42,7 +42,7 @@ body {
 	margin: 0px;
 	min-height: 630px;
 	height: 100%;
-	background-image:url("images/background/logo.svg"), linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
+	background-image:url(images/background/logo.svg), linear-gradient(to right, rgb(72,149,165), rgb(59,110,127), rgb(45,66,83));
 	background-repeat:no-repeat;
 	background-position:right bottom;
 	font-family: Open Sans Light;
@@ -89,7 +89,7 @@ body {
 		/* grid-auto-columns: fit-content(auto); */
 	}
 
-		.menu-item {
+		.menu .menu-item {
 
 			padding: 10px;
 			/* border: 1px solid red; */
@@ -102,31 +102,31 @@ body {
 			position: relative;
 		}
 
-		.menu-item:hover {
+		.menu .menu-item:hover {
 			background-color: #439D9B;
 		}
 
-		.menu-item:active, .menu-item.active {
+		.menu .menu-item:active, .menu-item.active {
 			background-color: rgba(42, 91, 99, 54);
 		}
 
-		.menu-item {
-			background-image:url("images/menu/moon.svg");
+		.menu .menu-item {
+			background-image:url(images/menu/moon.svg);
 		}
 
-		.menu-item[data-body="moon"] {
-			background-image:url("images/menu/moon.svg");
+		.menu .menu-item[data-body="moon"] {
+			background-image:url(images/menu/moon.svg);
 		}
 
-		.menu-item[data-body="venus"] {
-			background-image:url("images/menu/venus.svg");
+		.menu .menu-item[data-body="venus"] {
+			background-image:url(images/menu/venus.svg);
 		}
 
-		.menu-item[data-body="saturn"] {
-			background-image:url("images/menu/saturn.svg");
+		.menu .menu-item[data-body="saturn"] {
+			background-image:url(images/menu/saturn.svg);
 		}
 
-		.menu-item > div {
+		.menu .menu-item > div {
 			width:100%;
 			position: absolute;
 			bottom: 8px;
@@ -138,9 +138,15 @@ body {
 	}
 
 		.main input {
-			display: block;
-			margin: auto;
+			display: inline-block;
+			/* margin: auto; */
+		}
 
+		.main .engine-block {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border: 1px solid blue;
 		}
 
 	.right {

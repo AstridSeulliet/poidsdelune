@@ -59,6 +59,7 @@ router.route('/:body/:mass')
 			saturn: 10.4, // N/kg
 			uranus: 10.4, // N/kg
 			neptun: 13.8, // N/kg
+			pluto: 1.57, // N/kg
 			moon: 1.57 // N/kg
 		}
 
