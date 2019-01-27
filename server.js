@@ -20,6 +20,7 @@ app.get('/grid', (req, res) => {
 
 app.listen(app.get('port'), () => {
 	console.log('Example app listening on port 3000!')
+	console.log('http://localhost:3000')
 })
 
 
@@ -50,7 +51,7 @@ router.route('/:body/:mass')
 			Méthode plus directe : (Masse x Pesanteur Astre) / Pesanteur Terre
 		*/
 
-		const GFList = { // Gravitational field
+		const GFList = { // Acceleration 
 			mercury: 3.8, // N/kg
 			venus: 8.8, // N/kg
 			earth: 9.8, // N/kg

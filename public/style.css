@@ -140,13 +140,50 @@ body {
 		.main input {
 			display: inline-block;
 			/* margin: auto; */
+			margin: 0;
+			height: 50px;
+			width: 400px;
+			background-color: #9FCBCC;
+			border: 0;
+			padding: 0;
+			display: inline-block;
+			font-size: 24px;
+			color: white;
+			font-weight: bold;
+			padding: 10px;
+			padding-left: 50px;
 		}
 
 		.main .engine-block {
 			display: inline-block;
-			width: 10px;
-			height: 10px;
-			border: 1px solid blue;
+			border: 0;
+			width: 70px;
+			height: 70px;
+		}
+
+		.main .gap {
+			background-color: #2C3E50;
+		}
+
+		.main .left-shift {
+			position: relative;
+			right: -35px;
+		}
+
+		.main .right-shift {
+			position: relative;
+			left: -35px;
+		}
+
+
+		.main-earth-bg {
+			background-image: url('images/main/earth-main.svg');
+			background-size: 100%;
+		}
+
+		.main-moon-bg {
+			background-image: url('images/main/moon-main.svg');
+			background-size: 100%;
 		}
 
 	.right {
